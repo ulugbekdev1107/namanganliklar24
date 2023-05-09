@@ -1,0 +1,45 @@
+/* ==============  all web site root variables  ============== */
+:root {
+  --bn-rubik: "Rubik", sans-serif;
+  --bn-white:#ffffff;
+  --bn-secondary:#EAEAEA;
+  --bn-secondary-card:#F6F6F6;
+  --bn-se-blue:#7296EC;
+  --bn-black:#000000;
+  --bn-se-black:#4A4B4C;
+  --bn-ne-black:#5E5F61;
+  --bn-oreng:#F78B3B;
+}
+/* ==============  all web site root variables  ============== */
+
+/* ============== css pseudo class options ============== */
+*:focus{
+  outline: 3px dotted var(--bn-se-blue);
+  outline-offset: 3px;
+}
+/* ============== css pseudo class options ============== */
+/* ========= body sections style ========= */
+body{
+  background-color: var(--bn-white);  
+}
+/* ========= body sections style ========= */
+
+/* ========= all container secction style ========= */
+.container{
+  width: 100%;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+/* ========= all container secction style ========= */
+
+/* ========= header section style ========= */
+/* ========= header section style ========= */
+
+/* ========= main section style ========= */
+/* ========= main section style ========= */
+
+/* ========= footer section style ========= */
+/* ========= footer section style ========= */
