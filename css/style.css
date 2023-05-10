@@ -18,6 +18,7 @@
   --bn-black: #000000;
   --bn-se-black: #4a4b4c;
   --bn-ne-black: #5e5f61;
+  --bn-sn-core:#7f7f7f;
   --bn-oreng: #f78b3b;
   --bn-secondary-off: #8d8d8d;
 }
@@ -51,6 +52,7 @@ body {
   background-color: var(--bn-secondary-card);
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .top-navbar-main {
   width: 1200px;
@@ -208,14 +210,30 @@ border-radius: 10px;
 .top-nav-btn:active {
 }
 .navbar {
-}
-.navigation {
+  height: 41px;
+  margin-bottom: 40px;
 }
 .nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: ;
+  list-style-type: none;
+  height: 21px;
+  margin-bottom: 20px;
 }
 .nav-item {
+  margin-right: 33.89px;
 }
 .nav-link {
+  font-family: var(--bn-rubik);
+  font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: var(--bn-sn-core);
+text-decoration: none;
+text-transform: capitalize;
+
 }
 .nav-link:hover {
 }
