@@ -21,6 +21,7 @@
   --bn-sn-core: #7f7f7f;
   --bn-oreng: #f78b3b;
   --bn-secondary-off: #8d8d8d;
+  --bn-secondary-one:#D2D2D2;
 }
 /* ==============  all web site root variables  ============== */
 
@@ -225,7 +226,7 @@ input:checked + .slider:before {
 .nav-item {
   margin-right: 33.89px;
 }
-.nav-item:last-child{
+.nav-item:last-child {
   margin-right: 0px;
 }
 .nav-link {
@@ -252,11 +253,11 @@ input:checked + .slider:before {
 /* ========= header section style ========= */
 
 /* ========= main section style ========= */
-.main{
+.main {
   width: 100%;
   height: 200vh;
 }
-.news-group{
+.news-group {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -264,16 +265,15 @@ input:checked + .slider:before {
   flex-basis: 1 1 150px;
   margin-bottom: 60px;
 }
-.news-card{
+.news-card {
   width: 394px;
   height: 382px;
   padding: 20px 17px 15px;
   background-color: var(--bn-secondary-card);
   border-radius: 15px;
   margin-bottom: 10px;
-
 }
-.news-card-heading{
+.news-card-heading {
   margin-bottom: 10px;
   font-family: var(--bn-rubik);
   font-weight: 500;
@@ -281,7 +281,7 @@ input:checked + .slider:before {
   line-height: 26px;
   color: var(--bn-black);
 }
-.news-card-paragriph{
+.news-card-paragriph {
   margin-bottom: 15px;
   font-family: var(--bn-rubik);
   font-weight: 400;
@@ -289,37 +289,40 @@ input:checked + .slider:before {
   line-height: 22px;
   color: var(--bn-se-black);
 }
-.card-image{
+.card-image {
   margin-bottom: 15px;
 }
-.news-img{
+.news-img {
   width: 359px;
   height: 165px;
 }
-.news-tag-title{
+.news-tag-title {
   font-family: var(--bn-rubik);
   font-weight: 400;
   font-size: 12px;
   line-height: 14.22px;
   color: var(--bn-ne-black);
 }
-.web-site-notf{
+.web-site-notf {
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
 }
-.notification-section{
+.notification-section {
   width: 1050px;
   height: 100px;
   background-image: url(../img/background.png);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 8px;
+  margin-right: 8px;
 }
-.notif-heading{
-  width:404px;
+.notif-heading {
+  width: 404px;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-left: 29px;
@@ -329,20 +332,96 @@ input:checked + .slider:before {
   line-height: 26px;
   color: #000000;
 }
-.notif-btn{
+.notif-btn {
   margin-right: 71px;
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: var(--bn-rubik);
   font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: var(--bn-white);
-background-color: var(--bn-oreng);
-text-decoration: none;
-padding: 13px 30px;
-border-radius: 10px;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--bn-white);
+  background-color: var(--bn-oreng);
+  text-decoration: none;
+  padding: 13px 30px;
+  border-radius: 10px;
 }
+/* world group */
+.in-world{}
+.in-the-world__heading{
+  margin-bottom: 20px;
+  font-family: var(--bn-rubik);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: #000000;
+}
+.in-the-group{
+  display: flex;
+  gap: 10px;
+  width:1240px;
+}
+.world-left{
+}
+.world-left-card{
+  width: 797px;
+  height: 205px;
+  background-color: var(--bn-secondary-card);
+  padding: 20px 17px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 15px;
+}
+.world-card-text{
+  width: 535px;
+  height: 128px;
+}
+.world-card-heading{
+  font-family: var(--bn-rubik), serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.world-card-paragriph{
+  margin-bottom: 17px;
+  font-family: var(--bn-rubik);
+  font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: var(--bn-se-black);
+}
+
+.world-right{
+  display: flex;
+  width: 393px;
+  flex-direction: column;
+
+}
+.world-right-main{
+  height: 502px;
+  background: var(--bn-secondary-one);
+  padding-top: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 25px;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.world-text-option{
+  width: 356px;
+  height: 71px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.world-border{
+  border-bottom:1px solid var(--bn-secondary-one);
+}
+/* world group */
 /* ========= main section style ========= */
 
 /* ========= footer section style ========= */
