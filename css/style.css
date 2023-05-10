@@ -1,41 +1,233 @@
+/* ==============  unversal style tag  ============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ==============  unversal style tag  ============== */
+
 /* ==============  all web site root variables  ============== */
 :root {
   --bn-rubik: "Rubik", sans-serif;
-  --bn-white:#ffffff;
-  --bn-secondary:#EAEAEA;
-  --bn-secondary-card:#F6F6F6;
-  --bn-se-blue:#7296EC;
-  --bn-black:#000000;
-  --bn-se-black:#4A4B4C;
-  --bn-ne-black:#5E5F61;
-  --bn-oreng:#F78B3B;
+  --bn-white: #ffffff;
+  --bn-secondary: #eaeaea;
+  --bn-secondary-card: #f6f6f6;
+  --bn-se-blue: #7296ec;
+  --bs-sw-blue:#DCE6FF;
+  --bn-de-blue: #2959ce;
+  --bn-black: #000000;
+  --bn-se-black: #4a4b4c;
+  --bn-ne-black: #5e5f61;
+  --bn-oreng: #f78b3b;
+  --bn-secondary-off: #8d8d8d;
 }
 /* ==============  all web site root variables  ============== */
 
 /* ============== css pseudo class options ============== */
-*:focus{
+/* *:focus{
   outline: 3px dotted var(--bn-se-blue);
   outline-offset: 3px;
-}
+} */
 /* ============== css pseudo class options ============== */
 /* ========= body sections style ========= */
-body{
-  background-color: var(--bn-white);  
+body {
 }
 /* ========= body sections style ========= */
 
 /* ========= all container secction style ========= */
-.container{
+.container {
   width: 100%;
   max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 120px;
-  padding-right: 120px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* ========= all container secction style ========= */
 
 /* ========= header section style ========= */
+.header {
+}
+.top-navbar {
+  background-color: var(--bn-secondary-card);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.top-navbar-main {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.top-navbar-left {
+  display: flex;
+  margin-right: 247px;
+}
+.link-logo {
+  margin-right: 40px;
+}
+.price {
+  width: 158px;
+  height: 19px;
+}
+.price > .dollor,
+.rubil {
+  font-family: var(--bn-rubik);
+  font-weight: 400s;
+  font-size: 16px;
+  line-height: 19px;
+}
+.price > .dollor > b {
+  color: var(--bn-de-blue);
+}
+.price > .rubil > b {
+  color: var(--bn-de-blue);
+}
+.top-navbar-right {
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  background-color: var(--bn-white);
+  display: flex;
+  align-items: center;
+  width: 275px;
+  height: 45px;
+  border-radius: 60px;
+  margin-right: 25px;
+}
+.search-bar > img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -1px;
+  left: 10px;
+}
+.search-input {
+  width: 245px;
+  border: none;
+  border-radius: 60px;
+  padding: 10px 13px;
+  font-family: var(--bn-rubik);
+  font-weight: 400;
+  line-height: 16.59px;
+  font-size: 16px;
+  color: var(--bn-secondary-off);
+  background-color: var(--bn-white);
+}
+.search-input:placeholder {
+  font-family: var(--bn-rubik);
+  font-weight: 400;
+  line-height: 16.59px;
+  font-size: 16px;
+}
+.search-input:focus {
+  outline: none;
+}
+/* toogle section */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: 25px;
+}
+.switch input{
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+.slider{
+  position: absolute;
+  cursor:pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bs-sw-blue);
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--bs-sw-blue);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ffffff;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.s-lang{
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  font-family: var(--bn-rubik);
+  font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: var(--bn-black);
+}
+/* toogle section */
+.top-nav-btn {
+  padding: 13px 20px;
+  background-color: var(--bn-se-blue);
+  font-family: var(--bn-rubik);
+  font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color:var(--bn-white);
+text-decoration: none;
+border-radius: 10px;
+}
+.top-nav-btn:hover {
+}
+.top-nav-btn:active {
+}
+.navbar {
+}
+.navigation {
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+}
+.nav-link:hover {
+}
+.nav-link:active {
+}
+.nav-border {
+  margin-bottom: 20px;
+}
+.rec-banner {
+  text-align: center;
+}
+
 /* ========= header section style ========= */
 
 /* ========= main section style ========= */
