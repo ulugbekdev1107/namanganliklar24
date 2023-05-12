@@ -27,10 +27,10 @@
 /* ==============  all web site root variables  ============== */
 
 /* ============== css pseudo class options ============== */
-/* *:focus{
+*:focus{
   outline: 3px dotted var(--bn-se-blue);
   outline-offset: 3px;
-} */
+}
 /* ============== css pseudo class options ============== */
 /* ========= body sections style ========= */
 body {
@@ -297,7 +297,6 @@ input:checked + .slider:before {
   color: var(--bn-black);
 }
 .news-card-paragriph {
-  margin-bottom: 15px;
   font-family: var(--bn-rubik);
   font-weight: 400;
   font-size: 16px;
@@ -305,7 +304,7 @@ input:checked + .slider:before {
   color: var(--bn-se-black);
 }
 .card-image {
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 .news-img {
   width: 359px;
@@ -318,6 +317,11 @@ input:checked + .slider:before {
   line-height: 14.22px;
   color: var(--bn-ne-black);
 }
+.news-card-tagline{
+  display: flex;
+  align-items: center;
+}
+
 .web-site-notf {
   width: 100%;
   height: auto;
@@ -390,7 +394,7 @@ input:checked + .slider:before {
   display: flex;
   gap: 15px;
 }
-.world-left-card:last-child{
+.world-left-card:last-child {
   margin-bottom: 75px;
 }
 .world-card-text {
@@ -413,6 +417,21 @@ input:checked + .slider:before {
   font-size: 16px;
   line-height: 22px;
   color: var(--bn-se-black);
+}
+.world-footer-text {
+  display: flex;
+
+  align-items: center;
+}
+.world-footer-text > img{
+  margin-right: 10px;
+}
+.world-footer-text > span {
+  font-family: var(--bn-rubik);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--bn-ne-black);
 }
 .world-left > .world-btn {
   margin-top: 28px;
