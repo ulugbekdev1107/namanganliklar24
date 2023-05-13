@@ -1,3 +1,5 @@
+@import url(../css/article.css);
+
 /* ==============  unversal style tag  ============== */
 * {
   margin: 0;
@@ -22,7 +24,7 @@
   --bn-sn-core: #7f7f7f;
   --bn-oreng: #f78b3b;
   --bn-secondary-off: #8d8d8d;
-  --bn-secondary-one: #d2d2d2;
+  --bn-secondary-one: #D2D2D2;
 }
 /* ==============  all web site root variables  ============== */
 
@@ -379,6 +381,9 @@ input:checked + .slider:before {
   border-radius: 10px;
 }
 /* world group */
+.in-world{
+  height: auto;
+}
 .in-the-world__heading {
   margin-bottom: 20px;
   font-family: var(--bn-rubik);
@@ -391,11 +396,10 @@ input:checked + .slider:before {
   display: flex;
   gap: 10px;
   width: 1240px;
-  height: 920px;
+  height: auto;
 }
 .world-left {
   width: 796px;
-  height: 990px;
 }
 .world-left-card {
   width: 797px;
@@ -421,6 +425,10 @@ margin-bottom: 0px;
   line-height: 26px;
   color: #000000;
   margin-bottom: 10px;
+  transition: all 0.6s ease;
+}
+.world-card-heading:hover{
+  text-decoration: underline;
 }
 .world-card-paragriph {
   margin-bottom: 17px;
@@ -429,10 +437,13 @@ margin-bottom: 0px;
   font-size: 16px;
   line-height: 22px;
   color: var(--bn-se-black);
+  transition: all 0.6s ease;
+}
+.world-card-paragriph:hover{
+  text-decoration: underline;
 }
 .world-footer-text {
   display: flex;
-
   align-items: center;
 }
 .world-footer-text > img{
@@ -461,6 +472,10 @@ margin-bottom: 0px;
   line-height: 19px;
   text-decoration: none;
   border-radius: 10px;
+  transition: all 0.8s ease;
+}
+.world-btn:hover{
+  background-color: var(--bn-secondary-one);
 }
 .world-right {
   display: flex;

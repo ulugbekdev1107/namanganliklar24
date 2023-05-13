@@ -1,0 +1,118 @@
+:root {
+  --bn-rubik: "Rubik", sans-serif;
+  --bn-white: #ffffff;
+  --bn-secondary: #eaeaea;
+  --bn-secondary-card: #f6f6f6;
+  --bn-se-blue: #7296ec;
+  --bs-sw-blue: #dce6ff;
+  --bn-de-blue: #2959ce;
+  --bn-black: #000000;
+  --bn-black-dark: #a6a6a6;
+  --bn-se-black: #4a4b4c;
+  --bn-ne-black: #5e5f61;
+  --bn-sn-core: #7f7f7f;
+  --bn-oreng: #f78b3b;
+  --bn-secondary-off: #8d8d8d;
+  --bn-secondary-one: #d2d2d2;
+}
+
+.article-group,
+.article-text {
+  display: flex;
+}
+.article-group {
+  height: 1257px;
+}
+.article-text {
+  align-items: center;
+  margin-bottom: 30px;
+}
+.article-text img {
+  margin-right: 10px;
+}
+.article-text span {
+  font-family: var(--bn-rubik);
+  font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: var(--bn-ne-black);
+}
+.article-left {
+  margin-right: 10px;
+  background-color: var(--bn-white);
+  width: 797px;
+}
+.article-left-card{
+  margin-bottom: 50px;
+}
+.article-card-heading {
+  font-family: var(--bn-rubik);
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: var(--bn-black);
+}
+.article-card-image img {
+  width: 797px;
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.article-card-paragriph {
+  margin-bottom: 24px;
+  font-family: var(--bn-rubik), serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--bn-black);
+}
+
+.article-br{
+  width: 708px;
+
+}
+.article-right {
+}
+.article-right-main {
+  background-color: var(--bn-secondary-card);
+  padding: 20px 17px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.article-text-option {
+  width: 356px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.article-right-heading {
+  font-family: var(--bn-rubik);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--bn-black);
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.article-rt-heading {
+  padding-bottom: 8px;
+  font-family: var(--bn-rubik);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--bn-black);
+}
+
+.article-tag-title {
+  font-family: var(--bn-rubik);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--bn-ne-black);
+  padding-bottom: 20px;
+}
+.article-border {
+}
+.rec-banner img {
+  width: 393px;
+  height: 338px;
+}
