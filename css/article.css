@@ -51,6 +51,9 @@ color: var(--bn-ne-black);
   font-size: 26px;
   line-height: 36px;
   color: var(--bn-black);
+  padding-bottom: 13px;
+  text-decoration: none;
+  display: inline-block;
 }
 .article-card-image img {
   width: 797px;
@@ -111,8 +114,8 @@ color: var(--bn-ne-black);
   padding-bottom: 20px;
 }
 .article-border {
+
 }
-.rec-banner img {
-  width: 393px;
-  height: 338px;
+.site-banner img {
+  width: 100%;
 }

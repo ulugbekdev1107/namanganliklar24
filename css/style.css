@@ -266,7 +266,9 @@ input:checked + .slider:before {
 .rec-banner {
   text-align: center;
 }
-
+.rec-banner img{
+  max-width: 100%;
+}
 /* ========= header section style ========= */
 
 /* ========= main section style ========= */
